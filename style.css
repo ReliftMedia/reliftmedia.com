@@ -1004,11 +1004,6 @@ cite a:last-child {
 /*--------------------------------------------------------------
 6.4 Primary Navigation
 --------------------------------------------------------------*/
-.primary-navigation {
-	padding-top: 24px;
-	color: #fff;
-	border-bottom: 1px solid #474747;
-}
 .primary-navigation a {
 	border-bottom: 1px solid transparent;
 	color: inherit;
@@ -3550,16 +3545,6 @@ div#jp-relatedposts {
 --------------------------------------------------------------*/
 @media screen and (min-width: 360px) {
 	/* Layout */
-	.site-logo-link {
-		max-height: 60px;
-	}
-	.site-logo-link,
-	.site-title {
-		margin: 14px 0;
-	}
-	.site-logo-link img {
-		height: auto;
-	}
 	.header-navigation,
 	.header-search {
 		top: 22px;
@@ -3609,9 +3594,6 @@ div#jp-relatedposts {
 	}
 
 	/* Primary Navigation */
-	.primary-navigation {
-		padding-top: 30px;
-	}
 	.primary-navigation .menu-primary {
 		padding-bottom: 6px;
 	}
